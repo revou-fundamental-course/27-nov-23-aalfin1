@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+/*----- STYLE UNTUK HEADER -----*/
+#navigation-bar {
+    background: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+#logo {
+    width: 311.4px;
+    height: 112.05px;
+}
+
+
+
+
+
+/*----- STYLE UNTUK MENU KALKULATOR -----*/
+#menu-calc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.btn-calc {
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    width: 250px;
+}
+
+#btn-calc-luas {
+    padding: 10px;
+    margin-inline: 5px;
+    background-color: lightpink;
+}
+
+#btn-calc-luas:hover {
+    background-color: rgb(245, 136, 152);
+}
+
+#btn-calc-luas:active {
+    background-color: rgb(189, 106, 118);
+    transform: translateY(1px);
+}
+
+#btn-calc-keliling {
+    padding: 10px;
+    margin-inline: 5px;
+    background-color: lightgreen;
+}
+
+#btn-calc-keliling:hover {
+    background-color: rgb(98, 230, 98);
+}
+
+#btn-calc-keliling:active {
+    background-color: rgb(93, 182, 93);
+    transform: translateY(1px);
+}
+
+
+
+
+
+/*----- STYLE UNTUK BAGIAN KALKULATOR -----*/
+h3 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.hitung {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hitung-luas {
+    background-color: lightpink;
+    padding: 20px;
+}
+
+#hitung-keliling {
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+.input-nilai {
+    padding: 10px;
+    margin-bottom: 2px;
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-nilai:focus {
+    background-color: lightyellow;
+}
+
+.label-hitung {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+}
+
+.button-reset {
+    font-size: medium;
+    font-weight: bold;
+    padding: 10px;
+    width: 150px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(243, 106, 106);
+    cursor: pointer;
+}
+
+.button-reset:hover {
+    background-color: rgb(240, 77, 77);
+}
+
+.button-reset:active {
+    background-color: rgb(187, 58, 58);
+    transform: translateY(1px);
+}
+
+.button-hitung {
+    font-size: medium;
+    font-weight: bold;
+    padding: 10px;
+    width: 150px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(191, 136, 241);
+    cursor: pointer;
+}
+
+.button-hitung:hover {
+    background-color: rgb(169, 98, 236);
+}
+
+.button-hitung:active {
+    background-color: rgb(134, 77, 187);
+    transform: translateY(1px);
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Matematika Segitiga</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js/script.js" ></script>
+</head>
+<body>
+    <script src="./js/script.js" ></script>
+
+    <header id="navigation-bar">
+        <a href="index.html"><img id="logo" src="./assets/logo.png"></a>
+        <h2 style="margin-block-start: 0;">Kalkulator Matematika Segitiga</h2>
+    </header>
+
+    <div id="menu-calc">
+        <button id="btn-calc-luas" class="btn-calc" onclick="showHitungLuas()">Hitung Luas Segitiga</button>
+        <button id="btn-calc-keliling" class="btn-calc" onclick="showHitungKeliling()">Hitung Keliling Segitiga</button>
+    </div>
+
+
+    <div id="hitung-luas" class="hitung">
+        <img src="./assets/luas.png" width="315px" height="209.3px">
+        <h3>Hitung Luas Segitiga</h3>
+        <p>L = Luas<br \>
+            a = alas<br \>
+            t = tinggi</p>
+        <input type="number" class="input-nilai" id="nilai-alas" placeholder="Nilai Alas"><br \>
+        <input type="number" class="input-nilai" id="nilai-tinggi" placeholder="Nilai Tinggi"><br \>
+        <section id="result">
+            <p id="rumus-luas" class="label-hitung"></p>
+            <p id="isi-rumus-luas" class="label-hitung"></p><br \>
+            <p id="hasil-luas" class="label-hitung"></p> 
+        </section>
+        <section id="buttons">
+            <button class="button-hitung" onClick="hitungLuas()">Hitung</button>
+            <button class="button-reset" onClick="resetLuas()">Reset</button>
+        </section>
+    </div>
+
+    <div id="hitung-keliling" class="hitung">
+        <img src="./assets/keliling.png" width="315px" height="209.3px">
+        <h3>Hitung Keliling Segitiga</h3>
+        <p>K = Keliling<br \>
+            s = sisi</p>
+        <input type="number" class="input-nilai" id="nilai-sisi1" placeholder="Nilai Sisi 1"><br \>
+        <input type="number" class="input-nilai" id="nilai-sisi2" placeholder="Nilai Sisi 2"><br \>
+        <input type="number" class="input-nilai" id="nilai-sisi3" placeholder="Nilai Sisi 3"><br \>
+        <section id="result">
+            <p id="rumus-keliling" class="label-hitung"></p>
+            <p id="isi-rumus-keliling" class="label-hitung"></p><br \>
+            <p id="hasil-keliling" class="label-hitung"></p> 
+        </section>
+        <section id="buttons">
+            <button class="button-hitung" onClick="hitungKeliling()">Hitung</button>
+            <button class="button-reset" onClick="resetKeliling()">Reset</button>
+        </section>
+    </div>
+    
+</body>
+</html>
